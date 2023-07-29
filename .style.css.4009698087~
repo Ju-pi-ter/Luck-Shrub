@@ -1,0 +1,68 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'roboto', sans-serif;
+  color: black;
+}
+
+body {
+  paddingp: 5px;
+}
+
+header {
+  background: #EBE9EA;
+  overflow: hidden;
+}
+.bg-img-container{
+  position: absolute;
+  overflow: hidden;
+  width: 15.8225rem;
+  height: 25.5rem;
+  top: 0px;
+  right: 0px;
+  /*border: 1px solid yellow;*/
+  
+}
+
+.lucky-shrub-logo {
+  width: 100px;
+  height: 150px;
+}
+
+nav {
+  margin: 0 auto;
+  width: 80%;
+ /* border: 1px solid red; */
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+ul a {
+  text-decoration: none;
+  
+  
+  
+}
+
+
+
+.plant-1 {
+  width: 15.8225rem;
+  height: 25.5rem;
+  transform: rotateZ(-142deg);
+  opacity: 0.3;
+  top: -125px;
+  right:0px;
+  position: absolute;
+  z-index: 5;
+  
+}
